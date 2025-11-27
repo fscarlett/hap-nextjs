@@ -16,13 +16,19 @@ export default function DarkModeSwitch() {
       {mounted &&
         (currentTheme === 'dark' ? (
           <MdLightMode
-            onClick={() => setTheme('light')}
-            className='text-xl cursor-pointer hover:text-amber-500'
+            onClick={() => {
+              setTheme('light')
+              console.log('light theme')
+            }}
+            className='text-xl cursor-pointer hover:text-gray-500'
           />
         ) : (
           <MdDarkMode
-            onClick={() => setTheme('dark')}
-            className='text-xl cursor-pointer hover:text-amber-500'
+            onClick={() => {
+              setTheme('dark')
+              console.log('dark theme')
+            }}
+            className='text-xl cursor-pointer hover:text-gray-500'
           />
         ))}
     </div>
