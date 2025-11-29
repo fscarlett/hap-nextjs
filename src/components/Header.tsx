@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import DarkModeSwitch from './DarkModeSwitch'
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 export default function Header() {
   return (
@@ -44,6 +45,16 @@ export default function Header() {
         </ul>
         <div className='ml-auto'>
           <DarkModeSwitch />
+        </div>
+        <div className='ml-4 flex items-center'>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          <SignedOut>
+            <Link href='/sign-in' className='mr-4 text-xl font-normal'>
+              Sign In
+            </Link>
+          </SignedOut>
         </div>
       </div>
     </header>
