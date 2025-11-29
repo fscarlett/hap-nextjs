@@ -38,7 +38,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href='/contact-us' className='ml-4 text-xl font-normal'>
+            <Link href='/contact' className='ml-4 text-xl font-normal'>
               Contact Us
             </Link>
           </li>
