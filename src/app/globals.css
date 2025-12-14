@@ -30,6 +30,10 @@ body {
 @tailwind utilities;
 
 @layer base {
+  /* html {
+    font-size: 18px;
+  } */
+
   h1 {
     @apply text-5xl font-bold;
   }
