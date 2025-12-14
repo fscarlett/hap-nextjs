@@ -1,3 +1,7 @@
 export default function OutsideHapPage() {
-  return <div>Outside HAP</div>
+  return (
+    <main>
+      <h1>Outside HAP</h1>
+    </main>
+  )
 }

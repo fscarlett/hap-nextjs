@@ -1,3 +1,7 @@
 export default function ReleasesPage() {
-  return <div>ReleasesPage</div>
+  return (
+    <main>
+      <h1>Releases</h1>
+    </main>
+  )
 }

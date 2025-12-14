@@ -1,3 +1,7 @@
 export default function NewsPage() {
-  return <div>NewsPage</div>
+  return (
+    <main>
+      <h1>News</h1>
+    </main>
+  )
 }

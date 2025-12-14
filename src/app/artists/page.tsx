@@ -1,3 +1,7 @@
 export default function ArtistsPage() {
-  return <div>ArtistsPage</div>
+  return (
+    <main>
+      <h1>Artists</h1>
+    </main>
+  )
 }
