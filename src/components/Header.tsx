@@ -4,7 +4,7 @@ import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 export default function Header() {
   return (
-    <header className='bg-orange-400 text-white p-4'>
+    <header className='site-header p-4'>
       <div className='container mx-auto flex items-stretch'>
         <ul className='flex space-x-4'>
           <li>
