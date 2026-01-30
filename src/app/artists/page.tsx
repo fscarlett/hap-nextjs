@@ -11,8 +11,8 @@ export default function ArtistsPage() {
             <p className='text-xl mt-4'>
               <Link href='/' className='flex flex-row items-start gap-4'>
                 <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
+                  src='/bartek-mixing.jpg'
+                  alt='Bizzartek Mixing'
                   width={50}
                   height={50}
                 />
@@ -24,8 +24,8 @@ export default function ArtistsPage() {
             <p className='text-xl mt-4'>
               <Link href='/' className='flex flex-row items-start gap-4'>
                 <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
+                  src='/igc.avif'
+                  alt='Its Gonna Crash'
                   width={50}
                   height={50}
                 />
@@ -37,8 +37,8 @@ export default function ArtistsPage() {
             <p className='text-xl mt-4'>
               <Link href='/' className='flex flex-row items-start gap-4'>
                 <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
+                  src='/etacarina-thumbnail-1.png'
+                  alt='Etacarina'
                   width={50}
                   height={50}
                 />
@@ -46,25 +46,13 @@ export default function ArtistsPage() {
               </Link>
             </p>
           </li>
+
           <li>
             <p className='text-xl mt-4'>
               <Link href='/' className='flex flex-row items-start gap-4'>
                 <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
-                  width={50}
-                  height={50}
-                />
-                White Blush
-              </Link>
-            </p>
-          </li>
-          <li>
-            <p className='text-xl mt-4'>
-              <Link href='/' className='flex flex-row items-start gap-4'>
-                <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
+                  src='/peek-thumbnail-1.png'
+                  alt='Peek photo'
                   width={50}
                   height={50}
                 />
@@ -76,8 +64,8 @@ export default function ArtistsPage() {
             <p className='text-xl mt-4'>
               <Link href='/' className='flex flex-row items-start gap-4'>
                 <Image
-                  src='/bartek-hap-headshot.jpg'
-                  alt='Bartek Hap Headshot'
+                  src='/four-point-zero.avif'
+                  alt='FourPointZero'
                   width={50}
                   height={50}
                 />
