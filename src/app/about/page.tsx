@@ -1,21 +1,36 @@
+import Image from 'next/image'
+
 export default function AboutPage() {
   return (
     <main>
       <h1>About HAP</h1>
       <div className='flex flex-col gap-4 mt-18 mb-18'>
         <div className='grid grid-cols-2 gap-6'>
-          <div className='text-center'>
-            <p>fox headshot</p>
-            <p>Fox Scarlett</p>
+          <div className='flex flex-col items-center'>
+            <Image
+              src='/fox-hap-headshot.jpg'
+              alt='Fox Scarlett'
+              width={150}
+              height={150}
+            />
+            <p className='mt-4'>Fox Scarlett</p>
           </div>
-          <div className='text-center'>
-            <p>Bartek headshot</p>
-            <p>Bartek Lorenz</p>
+          <div className='flex flex-col items-center'>
+            <Image
+              src='/bartek-hap-headshot.jpg'
+              alt='Bartek Lorenz'
+              width={150}
+              height={150}
+            />
+            <p className='mt-4'>Bartek Lorenz</p>
           </div>
         </div>
-        <div className=' text-lg text-center p-10'>
-          <p>
+        <div className='text-2xl text-center p-10'>
+          <p className='mb-4 text-2xl'>
             Half Ass Pop is an electronic music label based in Bristol UK.
+          </p>
+
+          <p className='text-2xl'>
             Founders Polish DJ/producer Bartek Lorenz and California
             musician/producer Fox Scarlett bring their combined vast range of
             experience to HAP to bring the listener / dancer lots of great
