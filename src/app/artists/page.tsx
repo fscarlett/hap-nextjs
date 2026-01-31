@@ -16,7 +16,7 @@ export default function ArtistsPage() {
                   width={50}
                   height={50}
                 />
-                Bizzartek
+                Bizzartech
               </Link>
             </p>
           </li>
