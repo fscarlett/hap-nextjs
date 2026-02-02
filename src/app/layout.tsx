@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang='en' suppressHydrationWarning>
-        <body className='h-screen'>
+        <body className='min-h-screen'>
           <ThemeComp>
             <Header />
             {children}
