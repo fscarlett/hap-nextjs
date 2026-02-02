@@ -37,9 +37,9 @@ export default function AboutPage() {
             music!
           </p>
         </div>
-        <div className='p-10'>
+        <div className='p-10 mt-24'>
           <Image
-            className='w-full'
+            className='w-full shadow-[0px_0px_49px_50px_rgba(0,0,0,1)]'
             src='/hap-about-page-img-rough.png'
             alt='times square nyc'
             width={300}
