@@ -27,8 +27,8 @@ body {
   font-family: Geist, sans-serif;
 }
 
-header.site-header,
-footer.site-footer {
+header.site-header
+/* footer.site-footer  */ {
   color: var(--text-default);
   background: var(--bg-default);
 }
